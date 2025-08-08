@@ -37,7 +37,7 @@ A simple ASP.NET Core Web API for managing users with token-based authentication
 
 ## Authentication
 - All `/api/users` endpoints require a Bearer token in the `Authorization` header.
-- Default token: `your-secret-token`
+- Default token: `secret`
 
 ## Customization
 - Update the token in `Middleware/TokenValidationMiddleware.cs` as needed.
