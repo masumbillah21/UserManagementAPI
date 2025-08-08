@@ -1,0 +1,36 @@
+# .gitignore for UserManagementAPI (C# ASP.NET Core)
+# Build results
+bin/
+obj/
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# VS Code
+.vscode/
+# Rider
+.idea/
+# Test results
+TestResults/
+# OS generated
+*.DS_Store
+Thumbs.db
+# Logs and temp
+*.log
+*.tmp
+*.swp
+# Local config
+appsettings.Development.json
+.env
+# NuGet
+*.nupkg
+# Others
+*.ncrunch*
+*.localhistory/
+*.resharper*
+*.dotCover
+*.coverage
+*.vspscc
+*.vssscc
+_ReSharper*/
